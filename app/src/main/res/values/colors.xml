@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === NOVA Brand Core === -->
+    <color name="nova_black">#070B14</color>
+    <color name="nova_deep">#0D1526</color>
+    <color name="nova_surface">#111C35</color>
+    <color name="nova_card">#162040</color>
+
+    <!-- === NOVA Accent Cyan/Blue === -->
+    <color name="nova_primary">#00D4FF</color>
+    <color name="nova_primary_dim">#0099CC</color>
+    <color name="nova_primary_dark">#005F8A</color>
+    <color name="nova_primary_glow">#4DDFFF</color>
+
+    <!-- === Orb Glow Layers === -->
+    <color name="orb_core">#00EEFF</color>
+    <color name="orb_mid">#0088BB</color>
+    <color name="orb_outer">#00334455</color>
+    <color name="orb_pulse">#1AFFFFFF</color>
+
+    <!-- === Secondary Accent - Purple/Violet === -->
+    <color name="nova_secondary">#7B2FFF</color>
+    <color name="nova_secondary_dim">#5B1FCC</color>
+    <color name="nova_secondary_glow">#9B5FFF</color>
+
+    <!-- === State Colors === -->
+    <color name="state_listening">#00FF88</color>
+    <color name="state_processing">#FFB300</color>
+    <color name="state_speaking">#00D4FF</color>
+    <color name="state_idle">#334466</color>
+
+    <!-- === Text === -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8899BB</color>
+    <color name="text_hint">#445577</color>
+    <color name="text_accent">#00D4FF</color>
+
+    <!-- === UI Elements === -->
+    <color name="divider">#1A2A4A</color>
+    <color name="icon_tint">#667799</color>
+    <color name="input_bg">#0D1A33</color>
+    <color name="button_bg">#00D4FF</color>
+    <color name="button_text">#070B14</color>
+
+    <!-- === Chat Bubbles === -->
+    <color name="bubble_user">#00D4FF</color>
+    <color name="bubble_user_text">#070B14</color>
+    <color name="bubble_nova">#162040</color>
+    <color name="bubble_nova_text">#FFFFFF</color>
+
+    <!-- === Light Theme Overrides === -->
+    <color name="light_bg">#F0F4FF</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_card">#E8EEFF</color>
+    <color name="light_text">#0D1526</color>
+    <color name="light_text_secondary">#445577</color>
+
+    <!-- === Status / Alert === -->
+    <color name="alert_warning">#FFB300</color>
+    <color name="alert_danger">#FF4444</color>
+    <color name="alert_success">#00FF88</color>
+    <color name="alert_info">#00D4FF</color>
+
+    <!-- === Gradients (used in code) === -->
+    <color name="grad_start">#0D1526</color>
+    <color name="grad_mid">#111C35</color>
+    <color name="grad_end">#070B14</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="scrim">#CC000000</color>
+    <color name="overlay_light">#0AFFFFFF</color>
+</resources>

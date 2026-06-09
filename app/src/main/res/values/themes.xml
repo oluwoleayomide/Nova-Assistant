@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== BASE NOVA THEME (Dark) ===== -->
+    <style name="Theme.Nova" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/nova_primary</item>
+        <item name="colorPrimaryVariant">@color/nova_primary_dark</item>
+        <item name="colorOnPrimary">@color/nova_black</item>
+        <item name="colorSecondary">@color/nova_secondary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/nova_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/nova_black</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/nova_black</item>
+        <item name="android:navigationBarColor">@color/nova_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- ===== LIGHT THEME ===== -->
+    <style name="Theme.Nova.Light" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/nova_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/nova_primary</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/nova_secondary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_text</item>
+        <item name="android:colorBackground">@color/light_bg</item>
+        <item name="colorOnBackground">@color/light_text</item>
+        <item name="android:statusBarColor">@color/light_bg</item>
+        <item name="android:navigationBarColor">@color/light_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Splash / Onboarding full screen -->
+    <style name="Theme.Nova.Fullscreen" parent="Theme.Nova">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.Nova.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/nova_primary</item>
+        <item name="android:textColor">@color/nova_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="Widget.Nova.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/nova_primary</item>
+        <item name="android:textColor">@color/nova_primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.Nova.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/nova_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextAppearance.Nova.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextAppearance.Nova.Subtitle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.Nova.Accent" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/nova_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Input Style -->
+    <style name="Widget.Nova.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/nova_primary_dim</item>
+        <item name="boxBackgroundColor">@color/input_bg</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+</resources>

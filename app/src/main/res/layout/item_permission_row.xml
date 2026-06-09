@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_card"
+    android:layout_marginBottom="10dp">
+
+    <!-- Icon -->
+    <TextView
+        android:id="@+id/perm_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Text -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/perm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/perm_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <!-- Grant button -->
+    <Button
+        android:id="@+id/btn_grant"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/btn_grant"
+        android:textColor="@color/nova_black"
+        android:textSize="12sp"
+        android:background="@drawable/bg_button_primary"
+        android:paddingHorizontal="16dp" />
+
+</LinearLayout>

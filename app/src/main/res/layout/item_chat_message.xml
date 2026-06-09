@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="4dp"
+    android:paddingHorizontal="4dp">
+
+    <!-- Bubble container (gravity toggled in code) -->
+    <LinearLayout
+        android:id="@+id/bubble_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <!-- Nova avatar (shown for nova messages) -->
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_nova_logo"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+
+        <!-- Bubble -->
+        <LinearLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="280dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@drawable/bg_bubble_nova">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.4" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_hint"
+                android:textSize="10sp"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

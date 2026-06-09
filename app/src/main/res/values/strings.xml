@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NOVA</string>
+    <string name="tagline">Your off-hands phone operator</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Meet NOVA</string>
+    <string name="onboarding_subtitle">Your intelligent voice assistant</string>
+    <string name="onboarding_theme_title">Choose Your Style</string>
+    <string name="onboarding_theme_subtitle">You can change this later in Settings</string>
+    <string name="onboarding_dark">Dark Mode</string>
+    <string name="onboarding_light">Light Mode</string>
+    <string name="onboarding_name_title">What\'s your name?</string>
+    <string name="onboarding_name_hint">Enter your name</string>
+    <string name="onboarding_callname_title">What should NOVA call you?</string>
+    <string name="onboarding_callname_hint">Nickname or preferred name</string>
+    <string name="onboarding_permissions_title">NOVA needs access</string>
+    <string name="onboarding_permissions_subtitle">These help NOVA work its magic</string>
+    <string name="btn_next">Continue</string>
+    <string name="btn_grant">Grant</string>
+    <string name="btn_granted">✓ Granted</string>
+    <string name="btn_get_started">Let\'s Go</string>
+    <string name="skip">Skip</string>
+
+    <!-- Home -->
+    <string name="orb_idle">Tap to wake NOVA</string>
+    <string name="orb_listening">Listening…</string>
+    <string name="orb_processing">Processing…</string>
+    <string name="orb_speaking">Speaking…</string>
+    <string name="greeting">Hello, I am NOVA. What do you want me to do for you?</string>
+    <string name="wake_prompt">How can I help you?</string>
+
+    <!-- Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_security">Security</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat -->
+    <string name="chat_hint">Ask NOVA anything…</string>
+    <string name="chat_empty">Start a conversation with NOVA</string>
+    <string name="chat_thinking">NOVA is thinking…</string>
+
+    <!-- Security -->
+    <string name="security_title">Security Center</string>
+    <string name="find_device">Find My Device</string>
+    <string name="ring_device">Ring Device</string>
+    <string name="show_location">Show Location</string>
+    <string name="malware_scan">Malware Scan</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="storage_info">Storage</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="coming_soon">Coming in Phase 2</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_voice">Voice</string>
+    <string name="settings_voice_gender">Voice Gender</string>
+    <string name="settings_voice_male">Male</string>
+    <string name="settings_voice_female">Female</string>
+    <string name="settings_voice_speed">Speed</string>
+    <string name="settings_voice_pitch">Pitch</string>
+    <string name="settings_wake_word">Wake Word</string>
+    <string name="settings_wake_hint">e.g. Hey Nova</string>
+    <string name="settings_test">Test</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_auto">Auto</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_battery_alert">Battery Alert</string>
+    <string name="settings_temp_alert">Temperature Alert</string>
+    <string name="settings_storage_alert">Storage Alert</string>
+    <string name="settings_api">AI Chat API</string>
+    <string name="settings_api_key_hint">Enter your API key</string>
+    <string name="settings_api_endpoint_hint">API Endpoint URL</string>
+    <string name="settings_save">Save</string>
+
+    <!-- Voice notifications -->
+    <string name="notif_channel_name">NOVA Assistant</string>
+    <string name="notif_channel_desc">NOVA voice service running</string>
+    <string name="notif_tap_wake">Tap to wake NOVA</string>
+    <string name="notif_running">NOVA is active and listening</string>
+
+    <!-- Alerts -->
+    <string name="alert_battery_low">Battery at %1$d%%. Enable battery saver?</string>
+    <string name="alert_temp_high">Your phone is getting hot. Close heavy apps?</string>
+    <string name="alert_storage_low">Storage almost full. Clear cache?</string>
+
+    <!-- Errors -->
+    <string name="error_mic">Microphone permission required</string>
+    <string name="error_no_match">I didn\'t catch that. Please try again.</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_api_key">Please set your API key in Settings</string>
+</resources>
